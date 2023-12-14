@@ -3,7 +3,8 @@ pipeline {
 
     stages {
         stage('Checkout') {
-            steps {git branch: 'main', credentialsId: '<YOUR_CREDENTIALS_ID>', url: '<YOUR_URL>'
+            steps {
+                git branch: 'main', credentialsId: '<YOUR_CREDENTIALS_ID>', url: '<YOUR_URL>'
             }
         }
         stage('Terraform init') {

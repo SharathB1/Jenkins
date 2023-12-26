@@ -1,0 +1,13 @@
+/*
+!/jobs
+!/.gitignore
+!/*.xml
+jobs/**
+!jobs/**/
+
+builds
+indexing
+
+!config.xml
+
+jobs/**/*workspace
